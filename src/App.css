@@ -1,0 +1,93 @@
+/* Lottie Background Styling */
+.lottie-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Keeps the background behind the content */
+  opacity: 0.3; /* Optional: You can adjust the opacity for the background */
+}
+
+/* General Box Styling */
+section {
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.7); /* Transparent background */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Soft shadow for a floating effect */
+  color: white;
+  position: relative;
+  z-index: 2; /* Ensure sections are above the background */
+}
+
+/* Header Styling */
+.header {
+  text-align: center;
+  padding: 2rem;
+  background-color: #222222;
+  color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: 10; /* Make sure header is above the background */
+}
+
+/* Content Container */
+.content-container {
+  position: relative;
+  z-index: 2; /* Ensures content is above the background */
+}
+
+/* Interactive Cards */
+.project-card {
+  background-color: rgba(42, 42, 42, 0.8); /* Slightly transparent */
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #222222;
+  color: #e0e0e0;
+}
+
+/* Ensure the header is positioned above the background */
+.header {
+  text-align: center;
+  padding: 2rem;
+  background-color: rgba(34, 34, 34, 0.9); /* Dark semi-transparent background */
+  color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  position: relative;
+  z-index: 10; /* Ensures the header is above the background */
+  font-family: Arial, sans-serif;
+}
+
+/* Other styles remain the same */
+
+.lottie-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.3;
+}
+
+.content-container {
+  position: relative;
+  z-index: 2;
+}
+
+html {
+  scroll-behavior: smooth;
+}

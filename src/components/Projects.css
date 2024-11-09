@@ -1,0 +1,36 @@
+.projects-section {
+    padding: 2rem;
+    color: #e0e0e0;
+    text-align: center;
+  }
+  
+  .project-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .project-card {
+    background-color: rgba(42, 42, 42, 0.85); /* Dark, semi-transparent background */
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
+  }
+  
+  .project-card h3 {
+    font-size: 1.5rem;
+    color: #ffffff;
+  }
+  
+  .project-card p {
+    margin: 0.5rem 0;
+    line-height: 1.5;
+    color: #d0d0d0;
+  }
+  
